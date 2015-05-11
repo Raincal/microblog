@@ -6,6 +6,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var MongoStore = require('connect-mongo');
+var settings = require('./settings');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -37,15 +39,6 @@ app.post('/doReg',routes);
 app.get('/login',routes);
 app.post('/doLogin',routes);
 app.get('/logout',routes);
-
-
-/*app.all('/user/:username',function(req,res,next){
-  console.log('all methods captured');
-  next();
-})
-app.get('/user/:username',function(req,res){
-  res.send('user: ' + req.params.username);
-});*/
 
 //检测用户名是否存在在
 var users = {
