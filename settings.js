@@ -4,5 +4,5 @@
 module.exports = {
     cookieSecret: 'microblogbyraincal',
     db: 'microblog',
-    host: 'localhost',
-};
+    host: 'localhost'
+}
