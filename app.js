@@ -32,6 +32,8 @@ app.use(flash());
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 
 app.use(session({
+  resave: true,
+  saveUninitialized: true,
   secret: settings.cookieSecret,
   store: new MongoStore({
     db: settings.db
@@ -51,16 +53,8 @@ app.use(function(req,res,next){
 })
 
 app.use('/', routes);
-app.listen(3000);
 console.log("something happening");
 app.use('/users', users);
-//app.get('/u/:user',routes);
-//app.post('/post',routes);
-//app.get('/reg',routes);
-//app.post('/reg',routes);
-//app.get('/login',routes);
-//app.post('/login',routes);
-//app.get('/logout',routes);
 
 //检测用户名是否存在在
 //var users = {
