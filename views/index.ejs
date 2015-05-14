@@ -1,23 +1,13 @@
-<div class="hero-unit">
-  <h1>欢迎来到Microblog</h1>
-  <p>Microblog是一个基于Node.js的微博系统。</p>
-  <p>
-    <a class="btn btn-primary btn-large" href="/login">登陆</a>
-    <a class="btn btn-large" href="/reg">注册</a>
-  </p>
-</div>
-
-<div class="row">
-  <div class="span4">
-    <h2>里尔克说</h2>
-    <p>人若愿意的话，何不以悠悠之生，立一技之长，而贞静自守。</p>
+<% if(!user) { %>
+  <div class="hero-unit">
+    <h1>欢迎来到Microblog</h1>
+    <p>Microblog是一个基于Node.js的微博系统。</p>
+    <p>
+      <a class="btn btn-primary btn-large" href="/login">登陆</a>
+      <a class="btn btn-large" href="/reg">立即注册</a>
+    </p>
   </div>
-  <div class="span4">
-    <h2>席慕蓉说</h2>
-    <p>人是要过很多年才知道感恩的，才知道万物包括投眼而来的翠色，附耳而至的清风，无一不是豪华的天宠。才知道生命中的每一刹时间都是向永恒借来的片羽，才相信胸襟中的每一缕柔情都是无限天机所流泻的微光。我们被搅在那光芒里，昏昏然地飘在奇异的梦境中。</p>
-  </div>
-  <div class="span4">
-    <h2>大冰说</h2>
-    <p>我对普通朋友四个字的理解很简单：我在路上走着，遇到了你，大家点头微笑，结伴一程。缘深缘浅，缘聚缘散，该分手时分手，该重逢时重逢。你是我的普通朋友，我不奢望咱们的关系比水更淡泊，比酒更香浓。惜缘即可，不必攀缘。能不远不近地彼此陪伴着，不是已经很好了吗？</p>
-  </div>
-</div>
+<% } else { %>
+<%- partial('say') %>
+<% } %>
+<%- partial('posts', {posts:posts}) %>

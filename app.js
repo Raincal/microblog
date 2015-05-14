@@ -1,5 +1,4 @@
 var express = require('express');
-//express-partials
 var partials = require('express-partials');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -55,56 +54,6 @@ app.use(function(req,res,next){
 app.use('/', routes);
 console.log("something happening");
 app.use('/users', users);
-
-//检测用户名是否存在在
-//var users = {
-//  'yujia' : {
-//    name : 'Raincal',
-//    website : 'www.cyj228.com'
-//  }
-//};
-//app.all('/user/:username',function(req,res,next){
-//  if(users[req.params.username]){
-//    next();
-//  }else{
-//    next(new Error(req.params.username + ' dose not exit.'));
-//  }
-//});
-//app.get('/user/:username',function(req,res){
-//  res.send(JSON.stringify(users[req.params.username]));
-//});
-//app.put('/user/:username',function(req,res){
-//  res.end('Done.');
-//});
-
-//片段视图(partials)
-//app.get('/list',function(req,res){
-//  res.render('list',{
-//    title : 'List',
-//    items : [1994,'Raincal','express','Nodejs']
-//  });
-//});
-
-//视图助手
-/*var util= require('util');
-/!*express3.x
-  app.locals({
-  inspect : function(obj){
-    return util.inspect(obj,true);
-  }
-});*!/
-app.locals.inspect = function(obj){
-  return util.inspect(obj,true);
-};
-app.use(function(req,res,next){
-  res.locals.headers = req.headers;
-  next();
-});
-app.get('/helper',function(req,res){
-  res.render('helper',{
-    title : 'Helpers'
-  });
-});*/
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
