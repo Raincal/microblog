@@ -1,0 +1,321 @@
+::1 - - [Thu, 14 May 2015 17:30:36 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:30:40 GMT] "GET /u/Raincal HTTP/1.1" 200 2467 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:30:40 GMT] "GET /u/stylesheets/bootstrap-responsive.css HTTP/1.1" 404 1772 "http://localhost:3000/u/Raincal" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:30:41 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/u/Raincal" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:31:23 GMT] "GET /u/admin HTTP/1.1" 200 3802 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:31:23 GMT] "GET /u/stylesheets/bootstrap-responsive.css HTTP/1.1" 404 1772 "http://localhost:3000/u/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:31:24 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/u/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:31:36 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:34:24 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:34:46 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:34:46 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:34:47 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:03 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:04 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:39 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:40 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:44 GMT] "GET /logout HTTP/1.1" 302 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:44 GMT] "GET / HTTP/1.1" 500 1947 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:47 GMT] "GET /login HTTP/1.1" 200 2352 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:53 GMT] "POST /login HTTP/1.1" 302 58 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:35:53 GMT] "GET / HTTP/1.1" 500 1885 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:40 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:40 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:40 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:40 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:40 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:41 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:41 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:41 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:41 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:41 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:52 GMT] "GET / HTTP/1.1" 500 1790 "-" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:52 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:52 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:52 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:52 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:54 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:54 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:54 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:54 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:54 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:56 GMT] "GET / HTTP/1.1" 500 1790 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:56 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:56 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:56 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:49:56 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:43 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:43 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:43 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:43 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:43 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:45 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:45 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:45 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:45 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:45 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:46 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:46 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:46 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:46 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:46 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:47 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:51 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:51 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:51 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:51 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:51 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:53 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:53 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:53 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:53 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:50:53 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:03 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:03 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:03 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:03 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:03 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:04 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:04 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:04 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:04 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:04 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:05 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:05 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:05 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:05 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:05 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:06 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:15 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:15 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:15 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:15 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:15 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:18 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:19 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:19 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:19 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:19 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:20 GMT] "GET /img/glyphicons-halflings.png HTTP/1.1" 404 1772 "http://localhost:3000/stylesheets/bootstrap.css" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:22 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:22 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:22 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:22 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:22 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:22 GMT] "GET /img/glyphicons-halflings.png HTTP/1.1" 404 1772 "http://localhost:3000/stylesheets/bootstrap.css" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /img/glyphicons-halflings.png HTTP/1.1" 404 1772 "http://localhost:3000/stylesheets/bootstrap.css" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:23 GMT] "GET /img/glyphicons-halflings.png HTTP/1.1" 404 1772 "http://localhost:3000/stylesheets/bootstrap.css" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /img/glyphicons-halflings.png HTTP/1.1" 404 1772 "http://localhost:3000/stylesheets/bootstrap.css" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:51:24 GMT] "GET /img/glyphicons-halflings.png HTTP/1.1" 404 1772 "http://localhost:3000/stylesheets/bootstrap.css" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:26 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:26 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:26 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:26 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:26 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:27 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:27 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:27 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:27 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:52:27 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:03 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:03 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:03 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:03 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:03 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:04 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:04 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:04 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:04 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:04 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:04 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:53:05 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:54 GMT] "GET / HTTP/1.1" 200 4382 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:54 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:54 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:54 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:54 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:56 GMT] "GET /logout HTTP/1.1" 302 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:56 GMT] "GET / HTTP/1.1" 200 4603 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:56 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:56 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:56 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:54:56 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:00 GMT] "GET /login HTTP/1.1" 200 2352 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:00 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:00 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:00 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:00 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:04 GMT] "POST /login HTTP/1.1" 302 58 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:04 GMT] "GET / HTTP/1.1" 200 4477 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:04 GMT] "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 12397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:04 GMT] "GET /stylesheets/bootstrap.css HTTP/1.1" 200 104495 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:04 GMT] "GET /javascripts/bootstrap.js HTTP/1.1" 200 47875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+::1 - - [Thu, 14 May 2015 17:55:04 GMT] "GET /javascripts/jquery.js HTTP/1.1" 200 95931 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+[0mGET / [32m200 [0m52.582 ms - 4382[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m15.565 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m10.967 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m10.498 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m12.224 ms - 95931[0m
+[0mGET / [32m200 [0m16.466 ms - 4382[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m6.728 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.675 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m3.299 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m5.803 ms - 95931[0m
+[0mGET / [32m200 [0m14.198 ms - 4382[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m6.603 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m6.017 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m3.083 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m6.503 ms - 95931[0m
+[0mGET / [31m500 [0m37.738 ms - 1790[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m13.597 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m9.466 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m8.654 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m10.183 ms - 95931[0m
+[0mGET / [31m500 [0m48.883 ms - 1790[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m21.794 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m11.819 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m11.078 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m12.997 ms - 95931[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m5.336 ms - 104495[0m
+[0mGET / [31m500 [0m7.683 ms - 1790[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m10.751 ms - 104495[0m
+[0mGET /javascripts/jquery.js [32m200 [0m5.686 ms - 95931[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m3.899 ms - 47875[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m23.075 ms - 12397[0m
+[0mGET / [31m500 [0m7.261 ms - 1790[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m5.556 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.928 ms - 12397[0m
+[0mGET /javascripts/jquery.js [32m200 [0m4.308 ms - 95931[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m3.443 ms - 47875[0m
+[0mGET /logout [36m302 [0m7.535 ms - 58[0m
+[0mGET / [31m500 [0m8.571 ms - 1947[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.323 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m5.314 ms - 47875[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m10.057 ms - 104495[0m
+[0mGET /javascripts/jquery.js [32m200 [0m8.759 ms - 95931[0m
+[0mGET /reg [32m200 [0m6.244 ms - 2870[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m3.899 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m4.131 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m6.465 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m9.324 ms - 95931[0m
+[0mGET /login [32m200 [0m4.292 ms - 2352[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m7.469 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m7.419 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m4.749 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m7.199 ms - 95931[0m
+[0mGET / [31m500 [0m7.011 ms - 1852[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.389 ms - 12397[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m7.263 ms - 104495[0m
+[0mGET /javascripts/jquery.js [32m200 [0m10.644 ms - 95931[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m7.894 ms - 47875[0m
+[0mGET / [31m500 [0m4.843 ms - 1852[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m7.202 ms - 12397[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m9.201 ms - 104495[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m3.830 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m6.997 ms - 95931[0m
+[0mGET / [31m500 [0m36.541 ms - 1852[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m17.083 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m12.968 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m12.875 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m23.216 ms - 95931[0m
+[0mGET / [31m500 [0m20.093 ms - 1852[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m4.977 ms - 12397[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m6.784 ms - 104495[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m2.946 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m6.366 ms - 95931[0m
+[0mGET / [32m200 [0m61.204 ms - 4508[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m12.379 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m8.486 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m7.458 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m10.083 ms - 95931[0m
+[0mGET / [32m200 [0m24.423 ms - 4508[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.954 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m3.699 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m4.702 ms - 95931[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m10.340 ms - 104495[0m
+[0mGET /reg [32m200 [0m5.349 ms - 2870[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m4.159 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.189 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m2.730 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m40.410 ms - 95931[0m
+[0mGET / [32m200 [0m12.703 ms - 4508[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m7.426 ms - 12397[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m9.537 ms - 104495[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m4.886 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m8.282 ms - 95931[0m
+[0mGET /login [32m200 [0m7.862 ms - 2352[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.635 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m5.075 ms - 47875[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m8.882 ms - 104495[0m
+[0mGET /javascripts/jquery.js [32m200 [0m7.901 ms - 95931[0m
+[0mGET / [32m200 [0m18.723 ms - 4508[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m4.385 ms - 12397[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m8.319 ms - 104495[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m6.031 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m8.743 ms - 95931[0m
+[0mGET /reg [32m200 [0m3.220 ms - 2870[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m5.550 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.209 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m4.549 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m6.521 ms - 95931[0m
+[0mGET / [32m200 [0m11.752 ms - 4508[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.725 ms - 12397[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m8.600 ms - 104495[0m
+[0mGET /javascripts/jquery.js [32m200 [0m7.586 ms - 95931[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m7.072 ms - 47875[0m
+[0mGET /login [32m200 [0m2.341 ms - 2352[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m9.603 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m9.359 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m2.491 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m4.615 ms - 95931[0m
+[0mGET / [32m200 [0m15.592 ms - 4508[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m2.854 ms - 104495[0m
+[0mGET /stylesheets/bootstrap-responsive.css [32m200 [0m5.149 ms - 12397[0m
+[0mGET /javascripts/bootstrap.js [32m200 [0m3.536 ms - 47875[0m
+[0mGET /javascripts/jquery.js [32m200 [0m5.746 ms - 95931[0m
