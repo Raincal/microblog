@@ -1,99 +1,67 @@
-var fs = require('fs');
-var accessLogfile = fs.createWriteStream('access.log', {flags: 'a'});
-var errorLogfile = fs.createWriteStream('error.log', {flags: 'a'});
-var express = require('express');
-var partials = require('express-partials');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var session = require('express-session');
-var MongoStore = require('connect-mongo')(session);
-var settings = require('./settings');
-var flash = require('connect-flash');
+/**
+ * Module dependencies.
+ */
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+var express = require('express'),
+    app = express(),
+    routes = require('./routes'),
+    http = require('http'),
+    path = require('path'),
+    favicon = require('serve-favicon'),
+    logger = require('morgan'),
+    cookieParser = require('cookie-parser'),
+    bodyParser = require('body-parser'),
+    session = require('express-session'),
+    MongoStore = require('connect-mongo')(session),
+    db = require('./models/dbMongoose'),
+    settings = require('./settings');
 
-var app = express();
-
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
-app.use(partials());
-
-app.use(logger('dev',{stream: accessLogfile}));
-//app.use(logger('dev'));
+// all environments
+app.set('port', process.env.PORT || 3000);
+app.engine('.html', require('ejs').__express);
+app.set('views', __dirname + '/views');
+app.set('view engine', 'html');
+// app.use(express.favicon());
+// app.use(express.logger('dev'));
+app.use(logger('dev'));
+// app.use(express.bodyParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(express.methodOverride());
+// app.use(express.cookieParser('your secret here'));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(flash());
-app.use(function(err, req, res, next){
-  var meta = '[' + new Date() + '] ' + req.url + '\n';
-  errorLogfile.write(meta + err.stack + '\n');
-  next();
-});
-
-// uncomment after placing your favicon in /public
-//app.use(favicon(__dirname + '/public/favicon.ico'));
-
+// when the sessions will be stored in db.
 app.use(session({
-  resave: true,
-  saveUninitialized: true,
-  secret: settings.cookieSecret,
-  store: new MongoStore({
-    db: settings.db
-  })
+    secret: settings.cookieSecret,
+    store: new MongoStore({
+        db: settings.db
+    })
 }));
-
-app.use(function(req,res,next){
-  console.log('app.usr local');
-  res.locals.user = req.session.user;
-  res.locals.post = req.session.post;
-  var error = req.flash('error');
-  res.locals.error = error.length ? error : null;
-
-  var success = req.flash('success');
-  res.locals.success = success.length ? success : null;
-  next();
-})
-
-app.use('/', routes);
-console.log("something happening");
-app.use('/users', users);
-
-// catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
+    res.locals.user = req.session.user;
+    res.locals.success = req.session.success || null;
+    res.locals.error = req.session.error || null;
+    req.session.success = null;
+    req.session.error = null;
+    next();
+});
+app.use(express.static(path.join(__dirname, 'public')));
+
+// development only
+// if ('development' == app.get('env')) {
+//     app.use(express.errorHandler());
+// }
+
+// router or controller
+routes(app);
+
+app.on('close', function(err) {
+    db.disconnect();
 });
 
-// error handlers
-
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
-    });
-  });
-}
-
-// production error handler
-// no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
-  });
+var server = http.createServer(app).listen(app.get('port'), function() {
+    console.log('Express server listening on port ' + app.get('port'));
 });
 
-
-module.exports = app;
+// socket.io
+require('./websocket_blog')(server);

@@ -1,0 +1,23 @@
+<input type="hidden" id="postuser" value="<%= user ? user.name : '' %>">
+<div class="row" id="alertContainer" style="display: none;">
+	<a href=""><div class="alert alert-success span6 offset3" style="padding-right: 15px"></div></a>
+</div>
+
+<% 
+	posts.forEach(function(post, index) {
+%>
+
+<div class="row">
+	<div class="span6 offset3 comment">
+		<h2>
+			<a href="/u/<%= post.user %>"><%= post.user %></a> 说
+		</h2>
+		<p>
+			<small><%= post.time %></small>
+		</p>
+		<p><%= post.post %></p>
+	</div>
+</div>
+<!-- end row -->
+<%	}); %>
+

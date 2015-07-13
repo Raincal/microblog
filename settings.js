@@ -1,8 +1,5 @@
-/**
- * Created by raincal on 15/5/12.
- */
 module.exports = {
-    cookieSecret: 'microblogbyraincal',
-    db: 'microblog',
-    host: 'localhost'
-}
+	cookieSecret: 'cook1fan',
+	db: 'microblog_mongoose',
+	host: 'localhost',
+};

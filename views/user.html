@@ -1,0 +1,17 @@
+
+<% include header.html %>
+
+<div id="container" class="container">
+
+	<% include alert.html %>
+
+	<%	if (user) { %>
+		<%	include say.html %>
+	<%	} %>
+		
+	<% include post.html %>
+
+	<% include footer-copyright.html %>
+</div>
+
+<% include footer.html %>
