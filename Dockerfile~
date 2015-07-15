@@ -1,5 +1,5 @@
 # Dockerfile to create a docker image
-FROM scratch
+FROM node:0.12.7-onbuild
 MAINTAINER cyj94228@gmail.com
 
 ADD ./rootfs.tar /

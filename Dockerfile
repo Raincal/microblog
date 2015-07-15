@@ -2,8 +2,6 @@
 FROM node:0.12.7-onbuild
 MAINTAINER cyj94228@gmail.com
 
-ADD ./rootfs.tar /
-
 # Add files to the image
 RUN mkdir -p /microblog
 COPY . /microblog
@@ -13,7 +11,7 @@ WORKDIR /microblog
 RUN npm install
 
 # Expose the container port
-EXPOSE 3000
+EXPOSE 80
 
-ENTRYPOINT ["node", "app.js"]
+ENTRYPOINT ["node", "./bin/www"]
 

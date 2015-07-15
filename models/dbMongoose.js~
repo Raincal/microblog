@@ -1,17 +1,11 @@
 var settings = require('../settings');
 // mongoose
 var mongoose = require('mongoose');
-
-mongoose.connect('mongodb://' + settings.username + ':' + settings.password +'@' + settings.addr + ':' + settings.port + '/' + settings.db, {
+mongoose.connect('mongodb://' + settings.host + '/' + settings.db, {
 	server: {
 		poolSize: 10
 	}
 });
-/*mongoose.connect('mongodb://' + settings.host + '/' + settings.db, {
-	server: {
-		poolSize: 10
-	}
-});*/
 
 var conn = mongoose.connection;
 
