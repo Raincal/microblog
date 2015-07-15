@@ -1,5 +1,5 @@
 # Dockerfile to create a docker image
-FROM daocloud/ci-node:0.12
+FROM node:0.12.7-onbuild
 MAINTAINER cyj94228@gmail.com
 
 ADD ./rootfs.tar /
